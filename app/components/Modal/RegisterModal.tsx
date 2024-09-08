@@ -4,6 +4,8 @@ import React from "react";
 import axios from "axios";
 import { AiFillGithub } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
+import { FaApple } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import { useCallback, useState } from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 
@@ -93,6 +95,26 @@ const RegisterModal = () => {
                 // onClick={() => ()}
             
             />
+            <Button
+                outline
+                icon={FaApple}
+                label="Continue with Apple"
+                // onClick={() => ()}
+            
+            />
+
+			<div className="text-neutral-500 text-center mt-4 font-light">
+				<div className="flex flex-row justify-center items-center gap-2">
+						<div>
+							Already have an account?
+						</div>
+						<div
+						onClick={registerModal.onClose}
+						className="text-neutral-800 font-semibold cursor-pointer hover:underline">
+							Log in
+						</div>
+				</div>
+			</div>
         </div>
     )
 
