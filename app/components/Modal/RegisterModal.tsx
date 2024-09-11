@@ -6,6 +6,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+import { FacebookIcon } from 'react-share'
 import { useCallback, useState } from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 
@@ -98,6 +99,13 @@ const RegisterModal = () => {
             <Button
                 outline
                 icon={FaApple}
+                label="Continue with Apple"
+                // onClick={() => ()}
+            
+            />
+            <Button
+                outline
+                icon={FacebookIcon}
                 label="Continue with Apple"
                 // onClick={() => ()}
             
