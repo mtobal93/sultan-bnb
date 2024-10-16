@@ -98,6 +98,13 @@ const RegisterModal = () => {
             />
             <Button
                 outline
+                icon={AiFillGithub}
+                label="Continue with GitHub"
+                // onClick={() => ()}
+            
+            />
+            {/* <Button
+                outline
                 icon={FaApple}
                 label="Continue with Apple"
                 // onClick={() => ()}
@@ -109,7 +116,7 @@ const RegisterModal = () => {
                 label="Continue with Apple"
                 // onClick={() => ()}
             
-            />
+            /> */}
 
 			<div className="text-neutral-500 text-center mt-4 font-light">
 				<div className="flex flex-row justify-center items-center gap-2">
